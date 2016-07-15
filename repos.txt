@@ -1,0 +1,3 @@
+dfm=https://github.com/justone/dotfiles
+dotfiles=https://github.com/bboortz/dotfiles.git
+private_dotfiles=aa

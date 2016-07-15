@@ -1,0 +1,8 @@
+bash
+make
+tree
+git
+gcc
+python3
+screen
+vim
