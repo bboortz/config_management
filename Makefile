@@ -18,6 +18,3 @@ install-dotfiles:
 set-shell:
 	chsh -s `which bash`
 
-sync-vim:
-	./vim/.vim/sync.sh
-	python2 ~/.vim/plugged/YouCompleteMe/install.py

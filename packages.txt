@@ -3,6 +3,13 @@ make
 tree
 git
 gcc
+gdb
 python3
 screen
 vim
+lsof
+htop
+rsync
+strace
+ltrace
+openssh-client
