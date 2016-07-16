@@ -1,4 +1,4 @@
-nattended-upgrades
+unattended-upgrades
 bash
 make
 tree
