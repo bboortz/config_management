@@ -13,7 +13,8 @@ clone_or_pull() {
 	fi
 }
 
-. ./repos.txt
+
+. ./config/repos.txt
 ORIG_DIR="$PWD"
 mkdir -p ./.tmp
 cd ./.tmp
