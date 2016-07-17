@@ -1,4 +1,4 @@
-default: sync-repo update-os install-packages sync-time sync-tmp-repos prepare-home install-dotfiles
+default: sync-repo update-os install-packages sync-time sync-tmp-repos prepare-home install-software install-dotfiles
 
 sync-repo:
 	echo git pull --rebase
@@ -17,6 +17,9 @@ sync-tmp-repos:
 
 prepare-home:
 	./bin/prepare_home.sh
+
+install-software:
+	./bin/install_software.sh
 
 install-dotfiles:
 	./bin/install_dotfiles.sh
