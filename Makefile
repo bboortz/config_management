@@ -1,4 +1,4 @@
-default: sync-repo update-os install-packages sync-tmp-repos install-dotfiles
+default: sync-repo update-os install-packages sync-time sync-tmp-repos install-dotfiles
 
 sync-repo:
 	echo git pull --rebase
@@ -8,6 +8,9 @@ update-os:
 
 install-packages: 
 	./bin/install_packages.sh
+
+sync-time:
+	./bin/sync_time.sh
 
 sync-tmp-repos:
 	./bin/sync_tmp_repos.sh

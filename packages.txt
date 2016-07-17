@@ -2,6 +2,7 @@ unattended-upgrades
 bash
 make
 tree
+ntpdate
 git
 gcc
 gdb
