@@ -1,4 +1,4 @@
-default: sync-repo update-os install-packages sync-time sync-tmp-repos prepare-home install-software install-dotfiles
+default: sync-repo update-os install-packages sync-time sync-tmp-repos prepare-home install-software install-dotfiles private-cm
 
 sync-repo:
 	git pull --rebase
@@ -23,6 +23,9 @@ install-software:
 
 install-dotfiles:
 	./bin/install_dotfiles.sh
+
+private-cm:
+	./bin/private_cm.sh
 
 set-shell:
 	chsh -s `which bash`
