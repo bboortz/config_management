@@ -2,7 +2,7 @@
 
 ORIG_DIR="$PWD"
 
-cd ~/encrypted/config_management.plain
+cd ~/encrypted/config_management.plain || exit 1
 make
 
 cd "$ORIG_DIR"
