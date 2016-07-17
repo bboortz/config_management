@@ -1,7 +1,7 @@
 default: sync-repo update-os install-packages sync-tmp-repos install-dotfiles
 
 sync-repo:
-	echo git pull --rebase
+	git pull --rebase
 
 update-os:
 	./bin/update_os.sh
