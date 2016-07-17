@@ -1,0 +1,4 @@
+GOCRYPTFS_VERSION=v1.0-rc1
+GOCRYPTFS_TGZFILE=gocryptfs_${GOCRYPTFS_VERSION}_debian8_amd64.tar.gz
+GOCRYPTFS_URL=https://github.com/rfjakob/gocryptfs/releases/download/${GOCRYPTFS_VERSION}/${GOCRYPTFS_TGZFILE}
+GOCRYPTFS_COPYFILE=gocryptfs
