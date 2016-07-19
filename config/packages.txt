@@ -10,6 +10,7 @@ python3
 python3-venv
 python-virtualenv
 python3-pip
+python-pip
 screen
 vim
 lsof
