@@ -1,10 +1,13 @@
-default: sync-repo update-os install-packages sync-time sync-tmp-repos prepare-home install-software install-dotfiles private-cm
+default: sync-repo install-base-packages update-os install-packages sync-time sync-tmp-repos prepare-home install-software install-dotfiles private-cm
 
 sync-repo:
 	git pull --rebase
 
 update-os:
 	./bin/update_os.sh
+
+install-base-packages: 
+	./bin/install_base_packages.sh
 
 install-packages: 
 	./bin/install_packages.sh
