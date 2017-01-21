@@ -20,3 +20,4 @@ strace
 ltrace
 openssh-client
 fail2ban
+puppet
